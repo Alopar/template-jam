@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6122132527084857204}
   - component: {fileID: 4125955459443709340}
   - component: {fileID: 5853776529349897045}
-  - component: {fileID: 4389503155297618839}
   m_Layer: 0
   m_Name: VirtualCamera
   m_TagString: Untagged
@@ -29,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 2441250045870172547}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -112,26 +111,3 @@ MonoBehaviour:
   Offset: {x: 0, y: 0, z: 0}
   ApplyAfter: 1
   PreserveComposition: 0
---- !u!114 &4389503155297618839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2441250045870172547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be442c246ae4bd84794314f67c5ac53f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _zoomSize: 2
-  _zoomSpeed: 50
-  _zoomSteps: 5
-  _offsetDelta: 3
-  _verticalAspect: 1
-  _horizontalAspect: 0.25
-  _offsetSpeed: 1
-  _pointerInputAction: {fileID: -1654692200621890270, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  _wheelInputAction: {fileID: 6240969308177333660, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  _cinemachineCamera: {fileID: 6122132527084857204}
-  _cinemachineCameraOffset: {fileID: 5853776529349897045}
